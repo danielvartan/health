@@ -63,14 +63,14 @@ MIT](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/lic
 [![License: CC BY
 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-This package and accompanying data may be used freely, **with the
+This package and the accompanying data can be used freely, **with the
 exception of uses that end up harming myself or others**. The code is
-under the [MIT license](https://opensource.org/licenses/MIT) and the
+under the [MIT license](https://opensource.org/licenses/mit/) and the
 data is under the [Attribution 4.0 International license (CC BY
-4.0)](https://creativecommons.org/licenses/by/4.0/deed.en).
+4.0)](https://creativecommons.org/licenses/by/4.0/).
 
 For questions regarding this repository, send an e-mail to
-`danvartan@gmail.com`.
+<danvartan@gmail.com>.
 
 ## Citation
 
@@ -84,13 +84,13 @@ citation("health")
 #> 
 #> To cite health in publications use:
 #> 
-#>   Vartanian, D.. (2021). health: Daniel Vartanian health data package.
+#>   Vartanian, D. (2021). health: Daniel Vartanian's health data package.
 #>   Retrieved from https://danielvartan.github.io/health/.
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 
 #>   @Unpublished{,
-#>     title = {health: Daniel Vartanian health data package},
+#>     title = {health: Daniel Vartanian's health data package},
 #>     author = {Daniel Vartanian},
 #>     year = {2021},
 #>     url = {https://danielvartan.github.io/health/},

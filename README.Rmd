@@ -57,9 +57,9 @@ I try to update this repository at least once a year. Here's a list of all the h
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-This package and accompanying data may be used freely, __with the exception of uses that end up harming myself or others__. The code is under the [MIT license](https://opensource.org/licenses/MIT) and the data is under the [Attribution 4.0 International license (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.en).
+This package and the accompanying data can be used freely, __with the exception of uses that end up harming myself or others__. The code is under the [MIT license](https://opensource.org/licenses/mit/) and the data is under the [Attribution 4.0 International license (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
 
-For questions regarding this repository, send an e-mail to `danvartan@gmail.com`.
+For questions regarding this repository, send an e-mail to [danvartan@gmail.com](mailto:danvartan@gmail.com).
 
 ## Citation
 
