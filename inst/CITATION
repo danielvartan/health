@@ -1,0 +1,18 @@
+citHeader("To cite health in publications use:")
+
+citEntry(
+  entry       = "Unpublished",
+  title       = paste0("health:", " ",
+                       "Daniel Vartanian health data package"),
+  author      = personList(as.person("Daniel Vartanian")),
+  year        = "2021",
+  url         = paste0("https://danielvartan.github.io/",
+                        "health/"),
+  textVersion = paste0("Vartanian, D.", ". ",
+                       "(2021)",  ". ",
+                       "health:", " ",
+                       "Daniel Vartanian health data package", ". ",
+                       "Retrieved from https://danielvartan.github.io/",
+                       "health/", "."),
+  note        = "Lifecycle: experimental"
+)

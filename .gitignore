@@ -1,0 +1,8 @@
+.Rproj.user
+.Rhistory
+.RData
+doc
+docs
+inst/doc
+Meta
+pkgdown

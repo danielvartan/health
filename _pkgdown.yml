@@ -1,0 +1,30 @@
+url: https://danielvartan.github.io/health/
+
+template:
+  params:
+    bootswatch: cosmo
+    mathjax: true
+    noindex: true
+
+navbar:
+  structure:
+    left:  [intro, reference, articles, news]
+    right: [github]
+  components:
+    home: ~
+    news: ~
+    articles: ~
+
+reference:
+- title: Utilities
+  contents:
+  - raw_data
+
+authors:
+  Daniel Vartanian:
+    href: https://github.com/danielvartan
+
+development:
+  mode: auto
+  destination: doc
+  version_label: warning
