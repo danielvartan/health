@@ -2,7 +2,7 @@ tidy_sleep_diary <- function(file, write = FALSE) {
     checkmate::assert_file_exists(file)
     checkmate::assert_flag(write)
 
-    ## R CMD Check variable bindings fix (see: <http://bit.ly/3bliuam>)
+    ## R CMD Check variable bindings fix (see <https://bit.ly/3z24hbU>)
     timestamp <- bed_time <- bed_date <- get_up_time <- get_up_date <- NULL
     int <- NULL
 
@@ -47,6 +47,9 @@ actstudio_sleep_diary <- function(data, file_name = NULL) {
     checkmate::assert_data_frame(data, min.rows = 1)
     checkmate::assert_subset(c("bed_time", "get_up_time"), names(data))
     checkmate::assert_string(file_name, null.ok = TRUE)
+
+    ## R CMD Check variable bindings fix (see <https://bit.ly/3z24hbU>)
+    bed_time <- get_up_time <- NULL
 
     out <- data %>%
         dplyr::select(bed_time, get_up_time) %>%
