@@ -3,6 +3,7 @@ url: https://danielvartan.github.io/health/
 template:
   params:
     bootswatch: cosmo
+    ganalytics: G-ZEHX3NPDQC
     mathjax: true
     noindex: true
 
