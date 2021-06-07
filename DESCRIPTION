@@ -1,5 +1,5 @@
 Package: health
-Title: Daniel Vartanian Health Data Package
+Title: Daniel Vartanian's Health Data Package
 Version: 0.0.0.9000
 Authors@R: 
     c(person(given = "Daniel",

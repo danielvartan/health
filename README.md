@@ -15,6 +15,8 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 coverage](https://codecov.io/gh/danielvartan/health/branch/main/graph/badge.svg)](https://codecov.io/gh/danielvartan/health?branch=main)
 [![License:
 MIT](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com/licenses/mit/)
+[![License: CC BY
+4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 <!-- badges: end -->
 
 ## Overview
@@ -28,7 +30,7 @@ posterity.
 
 `health` is still at the
 [experimental](https://lifecycle.r-lib.org/articles/stages.html#experimental)
-stage of development, that means that people can use the package and
+stage of development. That means that people can use the package and
 provide feedback, but it comes with no promises for long term stability.
 
 You can install `health` from GitHub with:
@@ -56,6 +58,11 @@ all the health data present to date.
 
 ## License
 
+[![License:
+MIT](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT)
+[![License: CC BY
+4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
 This package and accompanying data may be used freely, **with the
 exception of uses that end up harming myself or others**. The code is
 under the [MIT license](https://opensource.org/licenses/MIT) and the
@@ -64,11 +71,6 @@ data is under the [Attribution 4.0 International license (CC BY
 
 For questions regarding this repository, send an e-mail to
 `danvartan@gmail.com`.
-
-[![MIT License - Green
-badge](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT)
-[![CC License Badge - BY
-4.0](https://licensebuttons.net/l/by/4.0/80x15.png)](https://creativecommons.org/licenses/by/4.0/deed.en)
 
 ## Citation
 

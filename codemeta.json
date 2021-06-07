@@ -6,7 +6,7 @@
   "@type": "SoftwareSourceCode",
   "identifier": "health",
   "description": "This package contains all my (Daniel Vartanian) health data. It \n    represents a personal project that aims to monitor my body's expression \n    over time and create a free public record for posterity.",
-  "name": "health: Daniel Vartanian Health Data Package",
+  "name": "health: Daniel Vartanian's Health Data Package",
   "codeRepository": "https://github.com/danielvartan/health/",
   "relatedLink": [
     "https://gipsousp.github.io/sqlr.template/",
@@ -210,7 +210,7 @@
           "familyName": "Vartanian"
         }
       ],
-      "name": "health: Daniel Vartanian health data package",
+      "name": "health: Daniel Vartanian's health data package",
       "url": "https://danielvartan.github.io/health/",
       "description": "Lifecycle: experimental"
     }
@@ -218,6 +218,10 @@
   "keywords": [
     "r",
     "sleep",
-    "chronobiology"
-  ]
+    "chronobiology",
+    "r-package",
+    "health",
+    "actigraphy"
+  ],
+  "readme": "https://github.com/danielvartan/health/blob/main/README.md"
 }

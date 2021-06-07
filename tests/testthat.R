@@ -6,11 +6,6 @@ test_check("health")
 
 # # For development use only (comment the code after use (Ctrl + Shift + C))
 #
-# codemetar::write_codemeta()
-#
-# spelling::spell_check_package()
-# spelling::update_wordlist()
-#
 # .rs.restartR()
 # codemetar::give_opinions()
 # codemetar::write_codemeta()

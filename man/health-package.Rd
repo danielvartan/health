@@ -4,8 +4,10 @@
 \name{health-package}
 \alias{health}
 \alias{health-package}
-\title{health: Daniel Vartanian Health Data Package}
+\title{health: Daniel Vartanian's Health Data Package}
 \description{
+\if{html}{\figure{logo.png}{options: align='right' alt='logo' width='120'}}
+
 This package contains all my (Daniel Vartanian) health data. It 
     represents a personal project that aims to monitor my body's expression 
     over time and create a free public record for posterity.
