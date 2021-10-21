@@ -21,7 +21,7 @@
     "name": "R",
     "url": "https://r-project.org"
   },
-  "runtimePlatform": "R version 4.1.0 (2021-05-18)",
+  "runtimePlatform": "R version 4.1.1 (2021-08-10)",
   "author": [
     {
       "@type": "Person",
@@ -63,30 +63,6 @@
         "url": "https://cran.r-project.org"
       },
       "sameAs": "https://CRAN.R-project.org/package=covr"
-    },
-    {
-      "@type": "SoftwareApplication",
-      "identifier": "crayon",
-      "name": "crayon",
-      "provider": {
-        "@id": "https://cran.r-project.org",
-        "@type": "Organization",
-        "name": "Comprehensive R Archive Network (CRAN)",
-        "url": "https://cran.r-project.org"
-      },
-      "sameAs": "https://CRAN.R-project.org/package=crayon"
-    },
-    {
-      "@type": "SoftwareApplication",
-      "identifier": "emojifont",
-      "name": "emojifont",
-      "provider": {
-        "@id": "https://cran.r-project.org",
-        "@type": "Organization",
-        "name": "Comprehensive R Archive Network (CRAN)",
-        "url": "https://cran.r-project.org"
-      },
-      "sameAs": "https://CRAN.R-project.org/package=emojifont"
     },
     {
       "@type": "SoftwareApplication",
@@ -161,6 +137,7 @@
       "@type": "SoftwareApplication",
       "identifier": "checkmate",
       "name": "checkmate",
+      "version": ">= 2.0.0",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -171,9 +148,22 @@
     },
     {
       "@type": "SoftwareApplication",
+      "identifier": "cli",
+      "name": "cli",
+      "version": ">= 3.0.1",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=cli"
+    },
+    {
+      "@type": "SoftwareApplication",
       "identifier": "dplyr",
       "name": "dplyr",
-      "version": ">= 0.2",
+      "version": ">= 1.0.7",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -184,8 +174,22 @@
     },
     {
       "@type": "SoftwareApplication",
+      "identifier": "hms",
+      "name": "hms",
+      "version": ">= 1.1.1",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=hms"
+    },
+    {
+      "@type": "SoftwareApplication",
       "identifier": "lifecycle",
       "name": "lifecycle",
+      "version": ">= 1.0.1",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -193,10 +197,41 @@
         "url": "https://cran.r-project.org"
       },
       "sameAs": "https://CRAN.R-project.org/package=lifecycle"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "lubridate",
+      "name": "lubridate",
+      "version": ">= 1.8.0",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=lubridate"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "mctq",
+      "name": "mctq",
+      "sameAs": "https://github.com/gipso/mctq"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "readr",
+      "name": "readr",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=readr"
     }
   ],
-  "fileSize": "0KB",
-  "contIntegration": "https://codecov.io/gh/danielvartan/health?branch=main",
+  "fileSize": "31318.62KB",
+  "contIntegration": ["https://github.com/danielvartan/health/actions", "https://codecov.io/gh/danielvartan/health?branch=main"],
   "developmentStatus": ["https://www.repostatus.org/#wip", "https://lifecycle.r-lib.org/articles/stages.html#experimental"],
   "releaseNotes": "https://github.com/danielvartan/health/blob/master/NEWS.md",
   "citation": [
@@ -210,7 +245,7 @@
           "familyName": "Vartanian"
         }
       ],
-      "name": "health: Daniel Vartanian's health data package",
+      "name": "{health}: Daniel Vartanian's health data package",
       "url": "https://danielvartan.github.io/health/",
       "description": "Lifecycle: experimental"
     }

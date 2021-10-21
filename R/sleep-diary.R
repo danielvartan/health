@@ -1,6 +1,5 @@
-tidy_sleep_diary <- function(file, write = FALSE) {
+tidy_sleep_diary <- function(file) {
     checkmate::assert_file_exists(file)
-    checkmate::assert_flag(write)
 
     ## R CMD Check variable bindings fix (see <https://bit.ly/3z24hbU>)
     timestamp <- bed_time <- bed_date <- get_up_time <- get_up_date <- NULL

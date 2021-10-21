@@ -30,14 +30,14 @@ posterity.
 
 `health` is still at the
 [experimental](https://lifecycle.r-lib.org/articles/stages.html#experimental)
-stage of development. That means that people can use the package and
-provide feedback, but it comes with no promises for long term stability.
+stage of development. That means people can use the package and provide
+feedback, but it comes with no promises for long term stability.
 
 You can install `health` from GitHub with:
 
 ``` r
-# install.packages("pak")
-pak::pkg_install("danielvartan/health")
+# install.packages("remotes")
+remotes::install_github("gipso/health")
 ```
 
 ## Health records
@@ -82,15 +82,15 @@ R package. You can find the `health` citation below.
 ``` r
 citation("health")
 #> 
-#> To cite health in publications use:
+#> To cite {health} in publications use:
 #> 
-#>   Vartanian, D. (2021). health: Daniel Vartanian's health data package.
-#>   Retrieved from https://danielvartan.github.io/health/.
+#>   Vartanian, D. (2021). {health}: Daniel Vartanian's health data
+#>   package. Retrieved from https://danielvartan.github.io/health/.
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 
 #>   @Unpublished{,
-#>     title = {health: Daniel Vartanian's health data package},
+#>     title = {{health}: Daniel Vartanian's health data package},
 #>     author = {Daniel Vartanian},
 #>     year = {2021},
 #>     url = {https://danielvartan.github.io/health/},

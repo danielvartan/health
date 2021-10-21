@@ -18,24 +18,23 @@ BugReports: https://github.com/danielvartan/health/issues/
 Depends:
     R (>= 4.1)
 Imports: 
-    checkmate,
-    dplyr (>= 0.2),
-    hms,
-    lifecycle,
-    lubridate (>= 1.7.9),
+    checkmate (>= 2.0.0),
+    cli (>= 3.0.1),
+    dplyr (>= 1.0.7),
+    hms (>= 1.1.1),
+    lifecycle (>= 1.0.1),
+    lubridate (>= 1.8.0),
     mctq,
     readr
 Suggests: 
     covr,
-    crayon,
-    emojifont,
     knitr,
     mockr,
     rmarkdown,
     spelling,
     testthat (>= 3.0.0)
 Remotes: 
-    github::gipsousp/mctq
+    github::gipso/mctq
 VignetteBuilder: 
     knitr
 Config/testthat/edition: 3
@@ -44,4 +43,4 @@ Language: en-US
 LazyData: true
 LazyDataCompression: bzip2
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.1
+RoxygenNote: 7.1.2
