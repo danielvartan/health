@@ -59,7 +59,7 @@ I try to update this repository at least once a year. Here's a list of all the h
 
 This package and the accompanying data can be used freely, __with the exception of uses that end up harming myself or others__. The code is under the [MIT license](https://opensource.org/licenses/mit/) and the data is under the [Attribution 4.0 International license (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
 
-For questions regarding this repository, send an e-mail to [danvartan@gmail.com](mailto:danvartan@gmail.com).
+For questions regarding this repository, send an email to [danvartan@gmail.com](mailto:danvartan@gmail.com).
 
 ## Citation
 

@@ -12,7 +12,7 @@ citEntry(
                        "(2021)",  ". ",
                        "{health}:", " ",
                        "Daniel Vartanian's health data package", ". ",
-                       "Retrieved from https://danielvartan.github.io/",
+                       "https://danielvartan.github.io/",
                        "health/", "."),
   note        = "Lifecycle: experimental"
 )

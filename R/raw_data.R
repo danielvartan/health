@@ -28,21 +28,5 @@
 #' raw_data()
 #' }
 raw_data <- function(type = NULL, file = NULL) {
-    package <- "health"
-    choices <- list.files(system.file("extdata", package = package))
-
-    checkmate::assert_choice(type, choices, null.ok = TRUE)
-    checkmate::assert_character(file, min.len = 1, null.ok = TRUE)
-
-    if (is.null(type) && is.null(file)) {
-        list.files(system.file("extdata", package = package))
-    } else if (!is.null(type) && is.null(file)) {
-        list.files(system.file("extdata", type, package = package))
-    } else if (!is.null(type) && !is.null(file)) {
-        system.file("extdata", type, file, package = package,
-                    mustWork = TRUE)
-    } else if (is.null(type) && !is.null(file)) {
-        stop("When 'file' is assigned, the 'type' argument cannot be 'NULL'.",
-             call. = FALSE)
-    }
+    gutils::raw_data_2(type, file, package = "health")
 }

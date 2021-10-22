@@ -69,7 +69,7 @@ under the [MIT license](https://opensource.org/licenses/mit/) and the
 data is under the [Attribution 4.0 International license (CC BY
 4.0)](https://creativecommons.org/licenses/by/4.0/).
 
-For questions regarding this repository, send an e-mail to
+For questions regarding this repository, send an email to
 <danvartan@gmail.com>.
 
 ## Citation
@@ -85,7 +85,7 @@ citation("health")
 #> To cite {health} in publications use:
 #> 
 #>   Vartanian, D. (2021). {health}: Daniel Vartanian's health data
-#>   package. Retrieved from https://danielvartan.github.io/health/.
+#>   package. https://danielvartan.github.io/health/.
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 

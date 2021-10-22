@@ -174,6 +174,12 @@
     },
     {
       "@type": "SoftwareApplication",
+      "identifier": "gutils",
+      "name": "gutils",
+      "sameAs": "https://github.com/gipso/gutils"
+    },
+    {
+      "@type": "SoftwareApplication",
       "identifier": "hms",
       "name": "hms",
       "version": ">= 1.1.1",
@@ -230,7 +236,7 @@
       "sameAs": "https://CRAN.R-project.org/package=readr"
     }
   ],
-  "fileSize": "31318.62KB",
+  "fileSize": "31317.307KB",
   "contIntegration": ["https://github.com/danielvartan/health/actions", "https://codecov.io/gh/danielvartan/health?branch=main"],
   "developmentStatus": ["https://www.repostatus.org/#wip", "https://lifecycle.r-lib.org/articles/stages.html#experimental"],
   "releaseNotes": "https://github.com/danielvartan/health/blob/master/NEWS.md",

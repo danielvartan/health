@@ -21,6 +21,7 @@ Imports:
     checkmate (>= 2.0.0),
     cli (>= 3.0.1),
     dplyr (>= 1.0.7),
+    gutils,
     hms (>= 1.1.1),
     lifecycle (>= 1.0.1),
     lubridate (>= 1.8.0),
@@ -34,6 +35,7 @@ Suggests:
     spelling,
     testthat (>= 3.0.0)
 Remotes: 
+    github::gipso/gutils,
     github::gipso/mctq
 VignetteBuilder: 
     knitr
