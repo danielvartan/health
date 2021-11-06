@@ -7,7 +7,6 @@ Authors@R:
              role = c("aut", "cre", "cph"),
              email = "danvartan@gmail.com",
              comment = c(ORCID = "0000-0001-7782-759X")))
-Maintainer: Daniel Vartanian <danvartan@gmail.com>
 Description: This package contains all my (Daniel Vartanian) health data. It 
     represents a personal project that aims to monitor my body's expression 
     over time and create a free public record for posterity.
@@ -25,7 +24,7 @@ Imports:
     hms (>= 1.1.1),
     lifecycle (>= 1.0.1),
     lubridate (>= 1.8.0),
-    mctq,
+    mctq (>= 0.1.0),
     readr
 Suggests: 
     covr,
@@ -35,8 +34,7 @@ Suggests:
     spelling,
     testthat (>= 3.0.0)
 Remotes: 
-    github::gipso/gutils,
-    github::gipso/mctq
+    github::gipso/gutils
 VignetteBuilder: 
     knitr
 Config/testthat/edition: 3

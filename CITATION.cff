@@ -1,0 +1,37 @@
+# -----------------------------------------------------------
+# CITATION file created with {cffr} R package, v0.1.0
+# See also: https://docs.ropensci.org/cffr/
+# -----------------------------------------------------------
+ 
+cff-version: 1.2.0
+message: 'To cite package "health" in publications use:'
+type: software
+license: MIT
+title: 'health: Daniel Vartanian''s Health Data Package'
+version: 0.0.0.9000
+abstract: This package contains all my (Daniel Vartanian) health data. It represents
+  a personal project that aims to monitor my body's expression over time and create
+  a free public record for posterity.
+authors:
+- family-names: Vartanian
+  given-names: Daniel
+  email: danvartan@gmail.com
+  orcid: https://orcid.org/0000-0001-7782-759X
+preferred-citation:
+  type: unpublished
+  title: 'health: Daniel Vartanian''s health data package'
+  authors:
+  - family-names: Vartanian
+    given-names: Daniel
+  year: '2021'
+  url: https://danielvartan.github.io/health/
+repository-code: https://github.com/danielvartan/health/issues/
+url: https://danielvartan.github.io/health/
+contact:
+- family-names: Vartanian
+  given-names: Daniel
+  email: danvartan@gmail.com
+  orcid: https://orcid.org/0000-0001-7782-759X
+identifiers:
+- type: url
+  value: https://github.com/danielvartan/health/
